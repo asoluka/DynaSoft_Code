@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ausoinc.dynasoft.MainActivity">
+
+    <ImageView
+        android:id="@+id/dynasoft6"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/app"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:id="@+id/About_DS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dynasoft6"
+        android:orientation="horizontal"
+        android:background="#B0BEC5"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/Reviews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1.5k+ Reviews"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="monospace"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_grade_white_18dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_grade_white_18dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_grade_white_18dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_grade_white_18dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_grade_white_18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Describe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/About_DS"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check_circle_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dynamic software corp. has risen to be the best software company today because we Learn, to apply."
+            android:textSize="18sp"
+            android:layout_below="@id/Reviews"
+            android:textColor="@android:color/black"
+            android:paddingLeft="3dp"
+            android:fontFamily="casual"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contactUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Describe"
+        android:orientation="horizontal"
+        android:background="#B0BEC5"
+        android:padding="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_contact_phone_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Contact Info:"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contactDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactUs"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_call_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 08167231071"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:paddingTop="2dp"
+            android:fontFamily="casual"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/officeAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactDetails"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_location_on_black_24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Recreation Close, Delta State, Nigeria."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingTop="2dp"
+        android:fontFamily="casual"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/officeAddress"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_language_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" www.dynasoft.corp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:paddingTop="2dp"
+            android:fontFamily="casual"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
